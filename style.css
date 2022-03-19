@@ -62,8 +62,8 @@ h1.heading {
 
 p.parag {
   color: #fff;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 24px;
+  line-height: 28px;
   font-family: 'Oxygen', sans-serif;
   padding-bottom: 15px;
 }
@@ -117,8 +117,8 @@ h4 {
 
 p.parag-2 {
   color: #000;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 20px;
+  line-height: 24px;
   font-family: 'Oxygen', sans-serif;
   max-width: 250px;
   text-align: center;
@@ -195,4 +195,68 @@ a.footer-txt {
   padding-left: 5px;
   padding-right: 5px;
   color: #ff0090;
+}
+
+.section-left {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 90px;
+  justify-content: flex-end;
+}
+
+.section-right {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding: 90px;
+}
+
+h1.heading-left {
+  color: #000;
+  font-size: 48px;
+  font-family: 'Cabin', sans-serif;
+}
+
+h1.heading-right {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Cabin', sans-serif;
+}
+
+p.parag-left {
+  color: #000;
+  font-size: 35px;
+  line-height: 42px;
+  font-family: 'Oxygen', sans-serif;
+  padding-bottom: 15px;
+}
+
+p.parag-right {
+  color: #fff;
+  font-size: 35px;
+  line-height: 42px;
+  font-family: 'Oxygen', sans-serif;
+  padding-bottom: 15px;
+}
+
+.intro-text-left {
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 50%;
+}
+
+.intro-text-right {
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 50%;
+}
+
+
+
+.section-right-pink {
+  background-color: #DE9CC5;
+  display: flex;
+  align-items: center;
+  padding: 90px;
 }
